@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,36 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our agricultural app
+				'leaf': {
+					50: '#f2fae5',
+					100: '#e4f5c8',
+					200: '#c8eb96',
+					300: '#a9de5e',
+					400: '#8bcf33',
+					500: '#72b51c',
+					600: '#5a9113',
+					700: '#436d12',
+					800: '#304a13',
+					900: '#1e2d0f',
+				},
+				'soil': {
+					50: '#f9f5f0',
+					100: '#f2e6d5',
+					200: '#e6ccac',
+					300: '#d8ad7d',
+					400: '#c78f53',
+					500: '#b67539',
+					600: '#955d2e',
+					700: '#744626',
+					800: '#553321',
+					900: '#36241c',
+				},
+			},
+			fontFamily: {
+				'sans': ['Poppins', 'sans-serif'],
+				'display': ['Montserrat', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +114,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
