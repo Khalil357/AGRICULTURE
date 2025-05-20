@@ -6,7 +6,7 @@ import { crops } from "@/data/crops";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ChevronLeft, Soil, CloudSun, Tractor, Leaf } from "lucide-react";
+import { ChevronLeft, FlowerIcon, CloudSun, Tractor, Leaf } from "lucide-react";
 
 const CropDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -74,7 +74,7 @@ const CropDetail = () => {
               <Tabs defaultValue="soil">
                 <TabsList className="w-full grid grid-cols-2 md:grid-cols-4 bg-leaf-50">
                   <TabsTrigger value="soil" className="flex gap-2 items-center">
-                    <Soil className="h-4 w-4" />
+                    <FlowerIcon className="h-4 w-4" />
                     <span>{t('crop.soil')}</span>
                   </TabsTrigger>
                   <TabsTrigger value="climate" className="flex gap-2 items-center">

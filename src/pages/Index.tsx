@@ -1,11 +1,10 @@
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import { crops } from "@/data/crops";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CropCard from "@/components/CropCard";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Leaf, Thermometer, CloudSun, Soil } from "lucide-react";
+import { ArrowRight, Leaf, Thermometer, CloudSun, FlowerIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -103,7 +102,7 @@ const Index = () => {
               
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="h-12 w-12 rounded-lg bg-soil-100 flex items-center justify-center text-soil-600 mb-4">
-                  <Soil className="h-6 w-6" />
+                  <FlowerIcon className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Soil Analysis</h3>
                 <p className="text-gray-600">
