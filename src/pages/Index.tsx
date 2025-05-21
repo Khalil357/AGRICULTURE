@@ -1,3 +1,4 @@
+
 import { useLanguage } from "@/contexts/LanguageContext";
 import { crops } from "@/data/crops";
 import Header from "@/components/Header";
@@ -43,7 +44,7 @@ const Index = () => {
                   <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-leaf-300 rounded-full opacity-30 animate-float" style={{ animationDelay: "0.5s" }}></div>
                   
                   <img
-                    src="https://images.unsplash.com/photo-1566119702412-e4e20a8cd302?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFybWVyfHx8fHx8MTcxNTkwMzg4NA&ixlib=rb-4.0.3&q=80&w=1080"
+                    src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80"
                     alt="Farmer working on field"
                     className="rounded-lg shadow-xl relative z-10 max-h-[500px] object-cover w-full"
                   />

@@ -1,4 +1,3 @@
-
 export interface Crop {
   id: string;
   name: {
@@ -277,7 +276,7 @@ export const crops: Crop[] = [
       sw: "Maharagwe ni mikunde ya kawaida ambayo hutoa protini na virutubisho. Ni rahisi kukua na hufaidi udongo kwa kurekebisha nitrojeni.",
       es: "Los frijoles son legumbres comunes que proporcionan proteínas y nutrientes. Son fáciles de cultivar y benefician al suelo fijando nitrógeno.",
     },
-    image: "https://images.unsplash.com/photo-1601401339322-969e1c9d3388?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8YmVhbnN8fHx8fHwxNzE1OTAzMDQ2&ixlib=rb-4.0.3&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1611575609938-64b666b72dd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
     soilRequirements: {
       en: [
         "Well-drained loamy soil",
